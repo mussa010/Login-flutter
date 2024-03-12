@@ -77,7 +77,7 @@ class _PrincipalViewState extends State<PrincipalView> {
         child: Form(
             key: formKey,
             child: Column(children: [
-              Image.asset('lib/imagens/login.png', width: 200, height: 200),
+              Image.asset('lib/imagens/login.png', width: 100, height: 100),
               const SizedBox(height: 30),
               TextFormField(
                 keyboardType: TextInputType.text,
